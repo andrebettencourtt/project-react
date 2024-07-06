@@ -1,3 +1,4 @@
+import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
 export function Post() {
@@ -19,7 +20,6 @@ export function Post() {
           Publicado há 1h
         </time>
       </header>
-
       <div className={styles.content}>
         <p>Fala galeraa 👋 </p>
         <p>
@@ -34,7 +34,6 @@ export function Post() {
           <a href=""> #rocketseat </a>
         </p>
       </div>
-
       <form className={styles.commentForm}>
         <strong>Deixe seu feedback</strong>
 
@@ -44,6 +43,12 @@ export function Post() {
           <button type="submit">Publicar</button>
         </footer>
       </form>
+      (/*Implementando o component Comment dentro do Post*/)
+      <div className={styles.commentList}>
+        <Comment />
+        <Comment />
+        <Comment />
+      </div>
     </article>
   );
 }
