@@ -16,6 +16,10 @@ function App() {
             author="André Bettencourt"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque."
           />
+          <Post
+            author="André Bettencourt"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque."
+          />
         </main>
       </div>
     </div>
