@@ -43,7 +43,7 @@ export function Post() {
           <button type="submit">Publicar</button>
         </footer>
       </form>
-      (/*Implementando o component Comment dentro do Post*/)
+      {/*Implementando o component Comment dentro do Post*/}
       <div className={styles.commentList}>
         <Comment />
         <Comment />
